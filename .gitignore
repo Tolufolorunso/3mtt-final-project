@@ -100,3 +100,8 @@ uploads/
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+/movie-app/node_modules/
+/movie-app-backend/node_modules/
+/movie-app-backend/.env
+/movie-app-backend/.env.local
