@@ -1,3 +1,6 @@
+// Movie Detail Page
+// Shows detailed information about a selected movie, including reviews, ratings, and related actions.
+
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import API from '../services/api'

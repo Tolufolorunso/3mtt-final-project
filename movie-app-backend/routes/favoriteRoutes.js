@@ -1,3 +1,7 @@
+// Favorite Routes
+// Defines API endpoints for managing user's favorite movies (add, remove, list).
+// All routes are prefixed with /api/user/favorites
+
 const express = require('express')
 const router = express.Router()
 const {

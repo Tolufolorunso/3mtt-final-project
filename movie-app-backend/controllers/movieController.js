@@ -1,3 +1,11 @@
+// Movie Controller
+// Handles fetching movie data, searching, and providing movie details from TMDB or the database.
+// Main responsibilities:
+// - Get all movies
+// - Get movie details
+// - Search for movies
+// - Provide movie data to the frontend
+
 const tmdb = require('../utils/tmdb')
 
 // @desc    Search movies from TMDB

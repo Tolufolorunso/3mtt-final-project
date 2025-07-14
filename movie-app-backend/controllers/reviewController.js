@@ -1,3 +1,10 @@
+// Review Controller
+// Handles adding, retrieving, and managing reviews for movies by users.
+// Main responsibilities:
+// - Add a review to a movie
+// - Get all reviews for a movie
+// - Delete or update reviews (if implemented)
+
 // controllers/reviewController.js
 const Review = require('../models/Review')
 

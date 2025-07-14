@@ -1,3 +1,6 @@
+// Review Form Component
+// Provides a form for users to submit a review for a movie, including rating and comments.
+
 import React from 'react'
 export default function ReviewForm({
   myReview,

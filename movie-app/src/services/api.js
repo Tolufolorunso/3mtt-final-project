@@ -1,7 +1,13 @@
+// API Service
+// Handles HTTP requests to the backend for authentication, movies, reviews, favorites, and watchlists.
+// Centralizes all API interactions for the frontend.
+
 import axios from 'axios'
 
+const API_URL = 'https://threemtt-final-project-dzef.onrender.com/api'
+
 const API = axios.create({
-  baseURL: 'http://localhost:5500/api', // Change in production
+  baseURL: API_URL, // Change in production
 })
 
 // Attach token to request if it exists

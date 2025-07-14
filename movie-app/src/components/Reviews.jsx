@@ -1,3 +1,6 @@
+// Reviews Component
+// Displays a list of reviews for a specific movie, including user ratings and comments.
+
 export default function Reviews(props) {
   return (
     <div className='mt-8'>

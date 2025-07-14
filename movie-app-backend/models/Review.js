@@ -1,3 +1,6 @@
+// Review Model
+// Defines the schema for movie reviews submitted by users, including rating, comment, and references to movies and users.
+
 // models/Review.js
 const mongoose = require('mongoose')
 

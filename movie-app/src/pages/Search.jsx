@@ -1,3 +1,6 @@
+// Search Page
+// Provides search functionality for users to find movies by title, genre, or other criteria.
+
 import { useState } from 'react'
 import API from '../services/api'
 import { Link } from 'react-router'

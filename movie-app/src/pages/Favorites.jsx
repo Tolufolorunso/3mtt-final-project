@@ -1,3 +1,7 @@
+// Favorites Page
+// Displays all movies that the user has marked as favorites.
+// Allows users to manage their favorite movies.
+
 import { useEffect, useState } from 'react'
 import API from '../services/api'
 import { useAuth } from '../context/AuthContext'

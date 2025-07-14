@@ -1,3 +1,6 @@
+// Register Page
+// Provides a form for new users to create an account and join the movie app.
+
 import { useState } from 'react'
 import API from '../services/api'
 import { useAuth } from '../context/AuthContext'

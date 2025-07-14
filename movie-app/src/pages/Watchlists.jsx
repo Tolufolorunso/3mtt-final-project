@@ -1,4 +1,5 @@
-// pages/Watchlists.jsx
+// Watchlists Page
+// Displays all watchlists created by the user and allows management of watchlist items.
 import { useEffect, useState } from 'react'
 import { useAuth } from '../context/AuthContext'
 import API from '../services/api'
@@ -93,8 +94,8 @@ export default function Watchlists() {
                         <img
                           src={`https://image.tmdb.org/t/p/w300/${id}.jpg`}
                           onError={(e) =>
-                            (e.target.src =
-                              'https://via.placeholder.com/300x450?text=Movie')
+                          (e.target.src =
+                            'https://via.placeholder.com/300x450?text=Movie')
                           }
                           alt={`Movie ${id}`}
                           className='rounded shadow'

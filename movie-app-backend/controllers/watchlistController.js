@@ -1,3 +1,11 @@
+// Watchlist Controller
+// Handles creating, updating, and retrieving user watchlists.
+// Main responsibilities:
+// - Add a movie to a user's watchlist
+// - Remove a movie from a watchlist
+// - Get all watchlists for a user
+// - Manage watchlist items
+
 // controllers/watchlistController.js
 const User = require('../models/User')
 

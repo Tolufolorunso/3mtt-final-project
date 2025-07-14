@@ -1,8 +1,18 @@
+// Favorite Controller
+// Handles adding, removing, and retrieving user's favorite movies.
+// Routes in this controller are typically protected and require authentication.
+//
+// Main responsibilities:
+// - Add a movie to user's favorites
+// - Remove a movie from favorites
+// - Get all favorite movies for a user
+
 const User = require('../models/User')
 
 // @desc    Add a movie to favorites
 // @route   POST /api/user/favorites
 // @access  Private
+// Adds a movie to the authenticated user's list of favorites.
 exports.addFavorite = async (req, res) => {
   try {
     const { movieId } = req.body

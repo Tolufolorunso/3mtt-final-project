@@ -1,3 +1,6 @@
+// Login Page
+// Provides a form for users to log in to their account and access personalized features.
+
 import { useState } from 'react'
 import API from '../services/api'
 import { useAuth } from '../context/AuthContext'

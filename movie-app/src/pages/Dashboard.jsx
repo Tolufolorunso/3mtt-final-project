@@ -1,3 +1,7 @@
+// Dashboard Page
+// Displays user-specific information, such as watchlists, favorites, and recent activity.
+// Accessible after login.
+
 import { useAuth } from '../context/AuthContext'
 
 export default function Dashboard() {

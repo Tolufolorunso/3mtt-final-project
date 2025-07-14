@@ -1,3 +1,7 @@
+// Movie Routes
+// Defines API endpoints for fetching movies, searching, and getting movie details.
+// All routes are prefixed with /api/movies
+
 const express = require('express')
 const router = express.Router()
 const {

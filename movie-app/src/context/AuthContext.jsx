@@ -1,3 +1,6 @@
+// Auth Context
+// Provides authentication state and functions (login, logout, register) to the app using React Context API.
+
 import { createContext, useContext, useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 

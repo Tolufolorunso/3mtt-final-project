@@ -1,3 +1,7 @@
+// User Routes
+// Defines API endpoints for user profile management and user-specific data.
+// All routes are prefixed with /api/user
+
 const express = require('express')
 const router = express.Router()
 const protect = require('../middleware/authMiddleware')

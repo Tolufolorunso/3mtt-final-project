@@ -1,3 +1,7 @@
+// Main Server Entry Point
+// Initializes the Express application, connects to the database, sets up middleware, and mounts all API routes.
+// This is the starting point of the backend server.
+
 const express = require('express')
 const cors = require('cors')
 const dotenv = require('dotenv')

@@ -1,3 +1,7 @@
+// Review Routes
+// Defines API endpoints for adding and retrieving reviews for movies.
+// All routes are prefixed with /api/reviews
+
 const express = require('express')
 const router = express.Router()
 const {

@@ -1,3 +1,6 @@
+// User Model
+// Defines the schema for user accounts, including authentication info, favorites, watchlists, and profile data.
+
 const mongoose = require('mongoose')
 
 const watchlistSchema = new mongoose.Schema({

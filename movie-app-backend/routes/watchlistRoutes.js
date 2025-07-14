@@ -1,3 +1,7 @@
+// Watchlist Routes
+// Defines API endpoints for managing user watchlists (add, remove, list).
+// All routes are prefixed with /api/user/watchlists
+
 const express = require('express')
 const router = express.Router()
 const {

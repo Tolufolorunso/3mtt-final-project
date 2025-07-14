@@ -1,3 +1,6 @@
+// Header Component
+// Renders the main navigation bar, logo, and links to key pages (Home, Login, Register, etc.).
+
 import { Link, useNavigate } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
 

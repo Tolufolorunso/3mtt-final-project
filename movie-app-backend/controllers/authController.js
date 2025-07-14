@@ -1,8 +1,17 @@
+// Auth Controller
+// Handles user authentication, registration, and login functionality.
+// Main responsibilities:
+// - Register new users
+// - Authenticate users and provide tokens
+// - Handle login/logout
+// - Manage user authentication state
+
 const User = require('../models/User')
 const bcrypt = require('bcryptjs')
 const jwt = require('jsonwebtoken')
 
 // @desc    Register new user
+// @route   POST /api/auth/register
 exports.registerUser = async (req, res) => {
   try {
     const { name, email, password } = req.body
@@ -42,6 +51,7 @@ exports.registerUser = async (req, res) => {
 }
 
 // @desc    Login existing user
+// @route   POST /api/auth/login
 exports.loginUser = async (req, res) => {
   try {
     const { email, password } = req.body
